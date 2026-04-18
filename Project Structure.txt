@@ -1,0 +1,39 @@
+✅ 📁 Final Project Structure for Health Insurance Fraud Detection
+healthinsurance_fraud/
+│
+├── data/
+│   ├── raw/
+│   │   ├── healthinsurance_fraud.csv               ← your dataset
+│   │
+│   ├── processed/
+│   │   ├── Processed_Data.csv                      ← cleaned dataset
+│   │   ├── fraud_detection_results.csv
+│   │   ├── predictions.csv
+│   │   ├── model_performance.csv
+│
+├── notebooks/
+│   ├── Multiple Algorithm Project.ipynb
+│   ├── ML Project.ipynb                            ← (Notebook from attached PDF summary)
+│
+├── src/
+│   ├── __init__.py
+│   ├── preprocessing.py                            ← cleaning, encoding, scaling
+│   ├── model_training.py                           ← RF, LR, XGB training
+│   ├── evaluate.py                                 ← metrics & plots
+│   ├── utils.py                                    ← helper functions
+│
+├── models/
+│   ├── random_forest.pkl
+│   ├── logistic_regression.pkl
+│   ├── xgboost.pkl
+│
+├── app/
+│   ├── fraud_detection_app.py                      ← your Streamlit app
+│
+├── reports/
+│   ├── ML Project (Attached File).pdf
+│   ├── ML Project (Attached File).docx
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
